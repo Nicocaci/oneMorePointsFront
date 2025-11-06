@@ -1,0 +1,23 @@
+.contenedor-navbar{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px 10px 20px;
+    border-bottom: 1px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.contenido-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.contenido-li{
+    display: flex;
+    gap: 80px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    height: 150px;
+}

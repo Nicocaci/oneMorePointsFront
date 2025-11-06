@@ -1,0 +1,88 @@
+.titulo-usuario {
+    width: 50%;
+    margin: auto;
+    margin-top: 2%;
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.contenedor-usuario {
+    width: 50%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.datospersonales {
+    padding: 30px;
+    border: 1px solid black;
+}
+
+.d1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-usuario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.form-usuario input {
+    width: 100%;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+
+
+.pages-usuario {
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+}
+
+.link-usuario {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.link-usuario.activo {
+    background-color: #ffc76e;
+    transition: 0.7s;
+}
+
+.input-email {
+    background-color: grey;
+    color: white;
+}
+
+.boton-actualizar {
+    background-color: #ffc76e;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.boton-deshabilitado {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+
+@media (max-width:1440px) {
+    .titulo-usuario {
+        width: 70%;
+    }
+    .contenedor-usuario {
+        width: 70%;
+    }
+}

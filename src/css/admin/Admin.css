@@ -1,0 +1,37 @@
+.admin {
+    width: 100%;
+}
+
+.titulo-admin {
+    width: 100%;
+    background-color: #ffc76e;
+    padding: 50px;
+}
+
+.contenido-admin {
+    width: 80%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.li-admin {
+    width: 50%;
+    margin: auto;
+}
+
+.pages-admin {
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+
+.link-admin {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.link-admin.activo {
+    background-color: #ffc76e;
+    transition: 0.7s;
+}

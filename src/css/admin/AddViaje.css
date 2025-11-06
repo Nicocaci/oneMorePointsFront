@@ -1,0 +1,36 @@
+.contenedor-nuevoviaje {
+    width: 50%;
+    margin: auto;
+    border: 1px solid #d2d5da;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form-viaje {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+}
+
+.flex-viaje {
+    display: flex;
+    flex-direction: column
+}
+
+
+.flex-viaje input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.boton-viaje {
+    background-color: #ffc76e;
+    padding: 10px;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}

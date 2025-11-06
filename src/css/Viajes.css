@@ -1,0 +1,48 @@
+.titulo-viajes {
+    width: 100%;
+    background-color: #ffc76e;
+    padding: 50px;
+}
+
+.contenedor-viajes{
+    width: 50%;
+    margin:auto;
+    margin-top: 1%;
+    padding: 50px;
+
+}
+.card-viajes{
+    display: flex;
+    border-radius: 30px;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin: 10px 0 10px 0;
+    background-color: white;
+}
+.div-1 {
+    width: 30%;
+    padding: 5px;
+}
+.img-viajes{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.viajes-list{
+    cursor: pointer;
+    border-radius: 30px;
+}
+.viajes-list :hover{
+    background-color: #ecf3ae;
+    transition: 0.2s;
+}
+.div-viajes{
+    display: flex;
+    align-items: flex-end;
+}
+.loading-viajes {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}

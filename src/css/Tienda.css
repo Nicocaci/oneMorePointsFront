@@ -1,0 +1,50 @@
+.titulo-tienda {
+    width: 50%;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.contenedor-tienda {
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    width: 50%;
+    gap: 20px;
+    margin-top: 1%;
+}
+
+.card-tienda {
+    border-radius: 5px;
+}
+
+.card-contenido-tienda {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+
+}
+
+.imagen-tienda {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.link-card{
+    text-decoration: none;
+    color: black;
+}
+@media (max-width: 1440px) {
+    .titulo-tienda {
+        width: 70%;
+    }
+    .contenedor-tienda {
+        width: 70%;
+    }
+}

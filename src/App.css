@@ -1,0 +1,40 @@
+/* Clases generales */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#root {
+    /* o el contenedor principal de React */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* ocupa toda la altura de la ventana */
+}
+
+main {
+    flex: 1;
+    /* hace que el contenido empuje al footer hacia abajo */
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
