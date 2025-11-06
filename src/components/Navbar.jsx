@@ -1,4 +1,4 @@
-import '@/css/Navbar.css';
+import '@/css/NavBar.css';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import Swal from 'sweetalert2';
