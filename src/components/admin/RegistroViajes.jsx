@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import '@/css/admin/registroViajes.css';
+import '@/css/admin/RegistroViajes.css';
 import Select from 'react-select';
 
 const apiUrl = import.meta.env.VITE_API_URL;
